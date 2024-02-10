@@ -1,29 +1,30 @@
 Primary Checkout Page
-    <?php echo do_shortcode('[download_checkout]'); ?>
-<hr>
+<?php echo do_shortcode('[download_checkout]'); ?>
+
 Receipt Page
-    <?php echo do_shortcode('[edd_receipt]'); ?>
-<hr>
+<?php echo do_shortcode('[edd_receipt]'); ?>
+
 Order History Page
-    <?php echo do_shortcode('[purchase_history]'); ?>
-<hr>
+<?php echo do_shortcode('[purchase_history]'); ?>
 
 Login Page
-    <?php echo do_shortcode('[edd_login]'); ?>
-<hr>
+<?php echo do_shortcode('[edd_login]'); ?>
 
 Login Redirect Page
-    <?php echo do_shortcode('[edd_login]'); ?>
-	++++++++++++++++
-[edd_cart] 
-<?php echo do_shortcode('[purchase_history]'); ?>
+<?php echo do_shortcode('[edd_login]'); ?>
+
+Profile Edit
 <?php echo do_shortcode('[edd_profile_editor]'); ?>
+
+Special Panel
 <?php echo do_shortcode('[fes_vendor_dashboard]'); ?>
 
-('[downloads]); 
-    <?php echo do_shortcode('[downloads]'); ?>
-('[download_history]); 
-    <?php echo do_shortcode('[download_history]'); ?>
+Downloads
+<?php echo do_shortcode('[downloads]'); ?>
+
+Download History
+<?php echo do_shortcode('[download_history]'); ?>
+
 ('[purchase_history]); 
     <?php echo do_shortcode('[purchase_history]'); ?>
 ('[download_checkout]); 
