@@ -24,26 +24,30 @@ Downloads
 
 Download History
 <?php echo do_shortcode('[download_history]'); ?>
+
 Basket
 <?php echo do_shortcode('[download_cart]'); ?>
+
 Basket Quantity
 <?php echo edd_get_cart_quantity(); ?>
-('[download_checkout]); 
-    <?php echo do_shortcode('[download_checkout]'); ?>
+
+Cart Total
+<?php echo edd_get_cart_total();?>
+
+Show Full Cart Total
+<?php echo edd_cart_total();?>
+
+Register
+<?php echo do_shortcode('[edd_register]'); ?>
+
+Download Discounts
+<?php echo do_shortcode('[download_discounts]'); ?>
+
 ('[purchase_link]); 
     <?php echo do_shortcode('[purchase_link]'); ?>
 ('[purchase_collection]); 
-    <?php echo do_shortcode('[purchase_collection]'); ?>
+<?php echo do_shortcode('[purchase_collection]'); ?>
 
-('[edd_profile_editor]); 
-    <?php echo do_shortcode('[edd_profile_editor]'); ?>
 
-('[edd_register]); 
-    <?php echo do_shortcode('[edd_register]'); ?>
-('[edd_receipt]); 
-    <?php echo do_shortcode('[edd_receipt]'); ?>
-('[download_discounts]); 
-    <?php echo do_shortcode('[download_discounts]'); ?>
 
-<?php echo do_shortcode('[edd_receipt]'); ?>
-<?php echo do_shortcode('[edd_checkout]'); ?>
+
