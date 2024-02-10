@@ -24,21 +24,20 @@ Downloads
 
 Download History
 <?php echo do_shortcode('[download_history]'); ?>
-
-('[purchase_history]); 
-    <?php echo do_shortcode('[purchase_history]'); ?>
+Basket
+<?php echo do_shortcode('[download_cart]'); ?>
+Basket Quantity
+<?php echo edd_get_cart_quantity(); ?>
 ('[download_checkout]); 
     <?php echo do_shortcode('[download_checkout]'); ?>
 ('[purchase_link]); 
     <?php echo do_shortcode('[purchase_link]'); ?>
 ('[purchase_collection]); 
     <?php echo do_shortcode('[purchase_collection]'); ?>
-('[download_cart]); 
-    <?php echo do_shortcode('[download_cart]'); ?>
+
 ('[edd_profile_editor]); 
     <?php echo do_shortcode('[edd_profile_editor]'); ?>
-('[edd_login]); 
-    <?php echo do_shortcode('[edd_login]'); ?>
+
 ('[edd_register]); 
     <?php echo do_shortcode('[edd_register]'); ?>
 ('[edd_receipt]); 
